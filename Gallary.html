@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.01">
+    <title>Gallary</title>
+    <style>
+        #import 
+:root{
+   --headerclr:#222533;
+   --mainclr:#ffcb0f;
+    }
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    text-transform:capitalize;
+    box-sizing:border-box; 
+    transition:.2s ;
+} 
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+} 
+.header{
+    border: 0px;
+    padding: 20px;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#293444;
+}
+#logo{
+    color:var(--headerclr);
+    font-size: 25px;
+}
+.nav a{
+    color:rgb(246, 238, 238);
+    font-size: 2.5rem;
+    margin-left: 9rem;
+}
+.nav a:hover{
+color:aqua;
+}
+.icon-header div{
+    color:#c9ced7(3, 1, 1);
+   margin-left: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.icon-header div:hover{
+    color: var(--mainclr);
+}
+.menu-bar{
+    display: none;
+}
+.nav.active{
+    top: 100%;
+}
+.search-form{
+    width: 50x;
+    position: relative;
+    top: 5%;
+    right: 2rem;
+    transition: 2s;
+
+}
+.search-form input{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--headerclr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.search-form.active{
+    top: 110%;}
+
+
+.hero-section{
+    height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/architecture-construction-ai-generated_406939-9250.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .sites{
+    max-width: 1200px;
+     margin: 0 auto;
+    width: 100%;
+      color:rgb(19, 18, 18);
+}
+
+
+
+.hero-section .sites h2 {
+  font-size: 6rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section .sites p {
+  font-weight: 400px;
+  max-width: 400px;
+  margin-top: 15px;
+  font-size: 2rem;
+  line-height: 20px;
+  color: white;
+  ;
+}
+
+.hero-section .sites button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 2rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;}
+
+
+  .hero-section .sites button:hover {
+  color: #fff;
+  background: skyblue;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="a" id="logo"><img src="E:\web project.html\web devlopment matrial\IMG_20240320_230743.png" height="150px" width="200px"></a>
+        <navbar class="nav">
+            
+           <a href="index.html">Home</a>
+
+           <a href="Gallary.html">Gallary</a>
+
+            <a href="ABOUTUS.html">About</a>
+            <a href="PROJECTS.html">Project</a>
+            <a href="CONTACT.html">Contacts</a>
+        </navbar>
+        <div class="icon-header">
+        <div id="menu-bar" class="fas fa.bars"></div>
+        <div id="search-bar" class="fas fa-search"></div>
+       </div>
+       <div class="search-form">
+        <input type="search" id="search-form" placeholder="search here">
+       </div>
+        </header> 
+        
+   
+<section  class="hero-section">
+    <div class="sites">
+        <h2> YOU DREAM IT WE BUILD IT </h2>
+        <p>
+            A construction site is an area or piece of land where construction work is taking place. Sometimes construction sites are referred to as 'building sites'. This usually implies that buildings or houses are being constructed, whereas 'construction site' covers a wider scope of work.
+        </p>
+       <a href="ABOUTUS.html"><button>  LEARN MORE </button></a>
+    </section>
+   <div class="houses">
+    <ul>
+        <ol>
+            <img src="web devlopment matrial/gallary-img1.jpg" height="200px" width="500px">
+        </ol>
+    </ul>
+   </div>
+</div>
+
+</body>
+</html>
